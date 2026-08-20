@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 512 512"
+     width="512"
+     height="512"
+     fill="none"
+     role="img"
+     aria-label="Focra symbol">
+  <title>Focra logo</title>
+  <g transform="rotate(6 256 256)"
+     stroke="currentColor"
+     stroke-width="44"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+    <path d="M 96 200 L 96 96 L 200 96"/>
+    <path d="M 416 200 L 416 96 L 312 96"/>
+    <path d="M 416 312 L 416 416 L 312 416"/>
+    <path d="M 96 312 L 96 416 L 200 416"/>
+  </g>
+  <circle cx="314" cy="198" r="46" fill="currentColor"/>
+</svg>

@@ -64,16 +64,13 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--focus); outline
   letter-spacing: -0.01em;
 }
 
-.brand-mark {
+.brand-logo {
   width: 32px;
   height: 32px;
-  border-radius: 10px;
-  display: grid;
-  place-items: center;
   background: var(--ink);
-  color: var(--surface);
-  font-size: 12px;
-  letter-spacing: -0.03em;
+  -webkit-mask: url("./focra-logo.svg") center / contain no-repeat;
+  mask: url("./focra-logo.svg") center / contain no-repeat;
+  flex: 0 0 auto;
 }
 
 .nav-actions { display: flex; align-items: center; gap: 18px; }
